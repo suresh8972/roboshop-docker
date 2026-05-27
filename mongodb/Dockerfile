@@ -1,2 +1,5 @@
+cat > Dockerfile << 'EOF'
 FROM mongo:7.0
-COPY master-data.js /docker-entrypoint-initdb.d
+EXPOSE 27017
+CMD ["mongod", "--bind_ip_all"]
+EOF
