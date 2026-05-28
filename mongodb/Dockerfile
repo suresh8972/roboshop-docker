@@ -1,2 +1,1 @@
-hdgchschshc
-gdhh
+FROM: ubuntu
